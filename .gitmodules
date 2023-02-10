@@ -1,0 +1,3 @@
+[submodule "themes/zplit"]
+	path = themes/zplit
+	url = https://github.com/gicrisf/zplit.git

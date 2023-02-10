@@ -1,0 +1,81 @@
+# The URL the site will be built for
+base_url = "/"
+
+title = "New Jersey Democratic Socialists of America"
+description = "Landing page for the New Jersey Democratic Socialists of America"
+
+theme = "zplit"
+
+# Whether to generate a RSS feed automatically
+generate_feed = true
+feed_filename = "rss.xml"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# Built in taxonomies of zplit.
+taxonomies = [
+#           {name = "tags"},
+#           {name = "categories"},
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+
+author = "NJ DSA"
+
+[extra.content]
+
+intro_tagline = "Socialism. Sopranos. Santillos"
+
+[extra.visual]
+
+background = "images/background.jpg"
+position = "center center"
+
+[extra.lists]
+
+
+north = [
+    { url = "https://north.dsanj.org", text="North NJ DSA Website"},
+    { url = "https://north.dsanj.org/hudson", text="Hudson County DSA Webpage", new_tab = true },
+    { url = "mailto:northnj@dsanj.org", text="North NJ DSA Email", new_tab = true },
+    { url = "mailto:northnj@dsanj.org", text="Essex County Branch Email", new_tab = true },
+    { url = "mailto:northnj@dsanj.org", text="Hudson County Branch Email", new_tab = true },
+    { url = "https://www.facebook.com/NorthNJDSA/", text="North NJ DSA Facebook", new_tab = true },
+    { url = "https://www.instagram.com/north_nj_dsa/", text="North NJ DSA Instagram", new_tab = true },
+    { url = "https://social.dsanj.org/@north", text="North NJ DSA Mastodon", new_tab = true },
+    { url = "https://social.dsanj.org/@essex", text="Essex County Branch Mastodon", new_tab = true },
+    { url = "https://social.dsanj.org/@hudson", text="Hudson County Branch Mastodon", new_tab = true },
+    { url = "https://twitter.com/NorthNJDSA", text="North NJ DSA Twitter", new_tab = true },
+]
+
+central = [
+    { url = "https://central.dsanj.org", text="Website" },
+    { url = "mailto:centralnj@dsanj.org", text="Email", new_tab = true },
+    { url = "https://www.facebook.com/CentralNJDSA", text="Facebook", new_tab = true },
+    { url = "https://www.instagram.com/centralnjdsa/", text="Instagram", new_tab = true },
+    { url = "https://social.dsanj.org/@central", text="Mastodon", new_tab = true },
+    { url = "https://twitter.com/CentralNJDSA", text="Twitter", new_tab = true },
+]
+
+south = [
+    { url = "https://southjerseydsa.wordpress.com", text="Website" },
+    { url = "mailto:northnj@dsanj.org", text="Email", new_tab = true },
+    { url = "https://www.facebook.com/dsasouthjersey", text="Facebook", new_tab = true },
+    { url = "https://www.instagram.com/dsasouthjersey/", text="Instagram", new_tab = true },
+    { url = "https://social.dsanj.org/@south", text="Mastodon", new_tab = true },
+    { url = "https://twitter.com/dsasouthjersey", text="Twitter", new_tab = true },
+]
+
+# The original template is released under the Creative Commons Attribution 3.0 License.
+# Please keep the original attribution link when using for your own project.
+# If you'd like to use the template without the attribution, you can check out
+# the license option via the template author's website: https://onepagelove.com/split
